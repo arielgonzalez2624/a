@@ -1,0 +1,144 @@
+
+.panel-acceso {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+}
+
+.marca-acceso {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.marca-acceso h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #111;
+}
+
+.marca-acceso span {
+    color: #e00000;
+}
+
+.marca-acceso p {
+    margin-top: 5px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #777;
+}
+
+.form-acceso h2,
+.form-registro h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.form-acceso > p:not(.enlace-cambio),
+.form-registro > p:not(.enlace-cambio) {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.form-acceso label,
+.form-registro label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+.form-acceso input,
+.form-registro input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-acceso input:focus,
+.form-registro input:focus {
+    border-color: #e00000;
+    box-shadow: 0 0 5px rgba(224, 0, 0, 0.2);
+}
+
+.form-acceso button,
+.form-registro button {
+    width: 100%;
+    padding: 14px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-acceso button:hover,
+.form-registro button:hover {
+    background: #e00000;
+    transform: translateY(-2px);
+}
+
+.enlace-cambio {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 13px;
+    color: #555;
+}
+
+.enlace-cambio a {
+    color: #e00000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlace-cambio a:hover {
+    text-decoration: underline;
+}
+
+.regresar-tienda {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #555;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.regresar-tienda:hover {
+    color: #e00000;
+}
+
+.ocultar-form {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .panel-acceso {
+        padding: 28px 22px;
+    }
+
+    .marca-acceso h1 {
+        font-size: 24px;
+    }
+
+    .form-acceso h2,
+    .form-registro h2 {
+        font-size: 22px;
+    }
+}

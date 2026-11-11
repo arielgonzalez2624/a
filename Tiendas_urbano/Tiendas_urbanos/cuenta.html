@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cuenta - Tiendas Urbano</title>
+    <link rel="stylesheet" href="cuentas.css">
+</head>
+
+<body>
+
+    <main class="panel-acceso">
+
+        <div class="marca-acceso">
+            <h1>TIENDAS <span>URBANO</span></h1>
+            <p>MODA QUE TE ACOMPAÑA</p>
+        </div>
+
+        <form id="accesoUsuario" class="form-acceso">
+
+            <h2>Iniciar sesión</h2>
+            <p>Bienvenido nuevamente.</p>
+
+            <label for="emailAcceso">Correo electrónico</label>
+            <input type="email" id="emailAcceso" placeholder="Ingresa tu correo" required>
+
+            <label for="claveAcceso">Contraseña</label>
+            <input type="password" id="claveAcceso" placeholder="Ingresa tu contraseña" required>
+
+            <button type="submit">Iniciar sesión</button>
+
+            <p class="enlace-cambio">
+                ¿No tienes una cuenta?
+                <a href="#" id="irRegistro">Crear nueva cuenta</a>
+            </p>
+
+        </form>
+
+        <form id="registroUsuario" class="form-registro ocultar-form">
+
+            <h2>Crear nueva cuenta</h2>
+            <p>Únete a Tiendas Urbano.</p>
+
+            <label for="nombreUsuario">Nombre completo</label>
+            <input type="text" id="nombreUsuario" placeholder="Ingresa tu nombre" required>
+
+            <label for="emailRegistro">Correo electrónico</label>
+            <input type="email" id="emailRegistro" placeholder="Ingresa tu correo" required>
+
+            <label for="claveRegistro">Contraseña</label>
+            <input type="password" id="claveRegistro" placeholder="Crea una contraseña" minlength="6" required>
+
+            <label for="repetirClave">Confirmar contraseña</label>
+            <input type="password" id="repetirClave" placeholder="Confirma tu contraseña" minlength="6" required>
+
+            <button type="submit">Crear cuenta</button>
+
+            <p class="enlace-cambio">
+                ¿Ya tienes una cuenta?
+                <a href="#" id="irAcceso">Iniciar sesión</a>
+            </p>
+
+        </form>
+
+        <a href="index.html" class="regresar-tienda">Volver a la tienda</a>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
